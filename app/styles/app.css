@@ -1,0 +1,234 @@
+@import url("fonts.css");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+article {
+  width: 60%;
+  margin: auto;
+}
+
+p {
+  font-size: x-large;
+  font-family: ParagraphFont;
+}
+
+.section {
+  color: #F20505;
+  font-size: large;
+  text-align: left;
+}
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+.tech-profile {
+  width: 30%;
+  margin: 20px auto;
+}
+
+.tech-profile img {
+  width: 30%;
+}
+
+i {
+  font-size: medium;
+}
+
+#banner_img {
+  width: 100%;
+  height: 600px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: HeadingFont;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: HeadingFont;
+}
+
+.profile {
+  border-top: 1px solid;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#hello {
+  text-align: center;
+}
+
+.banner {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+#bubble {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  color: grey;
+  box-shadow: 2px 2px 2px;
+}
+
+#description {
+  padding: 10px 20% 0px 20%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_header {
+  width: 60%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #101010;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container a {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo_container .name {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 40px;
+}
+
+.logo_container .name span {
+  font-family: "Celtic";
+}
+
+.logo_container .name:hover {
+  color: #e0e0e0;
+}
+
+.logo_container .name::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #F20505;
+  transition: width 0.3s;
+}
+
+.logo_container .name:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+.navigation li {
+  display: table;
+  padding: 0px 10px 0px 10px;
+  float: left;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.navigation-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #F20505;
+  transition: width 0.3s;
+}
+
+.navigation-link:hover {
+  color: #e0e0e0;
+}
+
+.navigation-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.posts {
+  background-color: white;
+}
+
+/* Post Fragments page */
+.post-fragment {
+  display: flex;
+  border-bottom: 1px ridge;
+  width: 80%;
+  padding: 5px;
+}
+
+.img-container {
+  order: 1;
+}
+
+.post-fragment img {
+  width: 200px;
+  height: 200px;
+}
+
+.post-fragment .fragment-text {
+  order: 2;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.post-fragment .fragment-text .fragment_section {
+  font-size: 16px;
+  color: #F20505;
+}
+
+.post-fragment .fragment-text .fragment_section:hover {
+  color: #BF0436;
+}
+
+.post-fragment .fragment-text .fragment_blurb {
+  font-size: large;
+}
+
+.post-fragment .fragment-text .fragment_date {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #4D4F5A;
+}
+
+/*# sourceMappingURL=app.css.map */

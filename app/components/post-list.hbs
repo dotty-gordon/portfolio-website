@@ -1,0 +1,9 @@
+<ul>
+  {{#each @posts as |post|}}
+	<li>
+		<div style="margin-top:20px;">
+			<PostFragment @post={{post}}/>
+		</div>
+	</li>
+  {{/each}}
+</ul>

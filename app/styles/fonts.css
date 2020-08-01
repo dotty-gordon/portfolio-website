@@ -1,0 +1,19 @@
+@font-face {
+  font-family: HeadingFont;
+  src: url(fonts/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: ParagraphFont;
+  src: url(fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+  font-family: Celtic;
+  src: url(fonts/Celtic.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(fonts/Montserrat-Black.ttf);
+}

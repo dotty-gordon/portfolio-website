@@ -1,0 +1,21 @@
+{
+	"data": 
+	{
+	      "type": "posts",
+	      "section": "software",
+	      "id": "gradle 5.0",
+	      "attributes": {
+	        "section": "software",
+	        "title": "Gradle 6.0 upgrade",
+	        "publish-date": "2020-07-01",
+	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",
+	        "image": {
+	          "src": "../gradle.png",
+	          "alt": "Gradle"
+	        },
+	        "paragraph-one": "Proin euismod felis sed mi commodo, at suscipit neque iaculis. Vivamus in feugiat sapien. Nulla odio dolor, viverra sit amet egestas eu, lacinia eget elit. Morbi dignissim vehicula porta. Morbi efficitur tellus vitae risus tristique luctus. Praesent dapibus scelerisque tincidunt. Proin quis odio vestibulum mauris ultricies ornare at ut sapien. Donec suscipit quam id feugiat scelerisque. Praesent mattis commodo ipsum eget posuere.",
+	        "paragraph-two": "In hac habitasse platea dictumst. Maecenas lobortis efficitur neque quis feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a rutrum nulla, in elementum est. Mauris sit amet turpis ut velit luctus sollicitudin non vel tortor. Phasellus non nunc aliquam, bibendum erat ac, dapibus nisl. Aliquam iaculis placerat risus vel efficitur. Nunc vel commodo purus. Etiam quis nisi non velit ullamcorper euismod. Integer id pretium felis, in rutrum orci. Donec quis nibh dignissim, vulputate libero ac, dapibus nulla. Pellentesque facilisis lacus id diam consequat pulvinar. Aliquam ultricies nunc eget sapien ultricies sollicitudin. Vivamus euismod, neque eu tincidunt rutrum, diam enim ultrices nibh, id posuere metus elit eu ligula.",
+	        "paragraph-three": "Pellentesque maximus congue luctus. Fusce viverra justo eu suscipit interdum. Fusce at accumsan justo, sit amet volutpat libero. Vestibulum eu purus ligula. Etiam augue nisi, accumsan pulvinar gravida in, ultrices a libero. Maecenas bibendum odio eget malesuada fermentum. Etiam sed cursus libero, non hendrerit sapien. Aliquam molestie congue tincidunt. Donec cursus ligula vitae metus aliquet, et rhoncus augue hendrerit. Mauris ornare, massa sit amet consectetur tincidunt, mi sapien eleifend justo, id efficitur ex dui nec nibh. Aliquam erat volutpat. Donec ligula nisl, pharetra in lectus et, mattis facilisis dolor. Curabitur augue mauris, sodales ut lobortis eget, maximus sit amet dolor. Ut pellentesque fringilla placerat. Vestibulum dignissim vulputate sagittis."
+	      }
+    }
+}

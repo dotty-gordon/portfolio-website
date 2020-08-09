@@ -16,13 +16,21 @@ p {
   font-family: ParagraphFont;
 }
 
-.section {
-  color: #F20505;
-  font-size: large;
-  text-align: left;
+h1, h2, h3, h4, h5, h6 {
+  font-family: HeadingFont;
 }
 
-#share-buttons img {
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.publish-date {
+  font-size: medium;
+  font-style: italic;
+}
+
+.share-buttons img {
   width: 35px;
   padding: 5px;
   border: 0;
@@ -30,39 +38,28 @@ p {
   display: inline;
 }
 
+.footer {
+  border-top: 1px solid;
+  border-color: #E0E0E0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: grey;
+}
+
 .tech-profile {
-  width: 30%;
-  margin: 20px auto;
+  margin-top: 100px;
 }
 
 .tech-profile img {
-  width: 30%;
-}
-
-i {
-  font-size: medium;
-}
-
-#banner_img {
-  width: 100%;
-  height: 600px;
-}
-
-img {
-  width: 100%;
-}
-
-h1 {
-  font-family: HeadingFont;
-  font-size: 50px;
-}
-
-h2 {
-  font-family: HeadingFont;
+  margin-right: 5px;
+  width: 20px;
+  filter: grayscale(100%);
 }
 
 .profile {
   border-top: 1px solid;
+  border-color: #E0E0E0;
   width: 60%;
   margin: auto;
   margin-top: 50px;
@@ -70,6 +67,7 @@ h2 {
 
 #hello {
   text-align: center;
+  margin-top: 20px;
 }
 
 .banner {
@@ -77,8 +75,12 @@ h2 {
   width: 100%;
   height: auto;
 }
+.banner .banner_img {
+  height: 600px;
+}
 
 #bubble {
+  margin-top: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -91,6 +93,89 @@ h2 {
 
 #description {
   padding: 10px 20% 0px 20%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.section {
+  color: #F20505;
+  font-size: large;
+  text-align: left;
+}
+
+.post-fragment {
+  display: flex;
+  border-bottom: 1px ridge;
+  width: 80%;
+  padding: 5px;
+}
+.post-fragment .img-container {
+  order: 1;
+}
+.post-fragment img {
+  width: 200px;
+  height: 200px;
+}
+.post-fragment .fragment-text {
+  order: 2;
+  width: 100%;
+  margin-left: 20px;
+}
+.post-fragment .fragment-text .fragment-section {
+  font-size: 16px;
+  color: #F20505;
+}
+.post-fragment .fragment-text .fragment-section :hover {
+  color: #BF0436;
+}
+.post-fragment .fragment-text .fragment-blurb {
+  font-size: large;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav li {
+  flex-grow: 100%;
 }
 
 .header {
@@ -113,25 +198,22 @@ h2 {
   display: table;
   float: left;
 }
-
 .logo_container a {
   height: 100%;
   display: table-cell;
   vertical-align: middle;
 }
-
 .logo_container .name {
   font-family: "Montserrat";
   color: white;
   font-size: 40px;
 }
-
 .logo_container .name span {
   font-family: "Celtic";
 }
 
 .logo_container .name:hover {
-  color: #e0e0e0;
+  color: #E0E0E0;
 }
 
 .logo_container .name::after {
@@ -152,13 +234,11 @@ h2 {
   float: right;
   height: 100%;
 }
-
 .navigation a {
   display: table-cell;
   vertical-align: middle;
   color: white;
 }
-
 .navigation li {
   display: table;
   padding: 0px 10px 0px 10px;
@@ -183,52 +263,6 @@ h2 {
 .navigation-link:hover::after {
   width: 100%;
   transition: width 0.3s;
-}
-
-.posts {
-  background-color: white;
-}
-
-/* Post Fragments page */
-.post-fragment {
-  display: flex;
-  border-bottom: 1px ridge;
-  width: 80%;
-  padding: 5px;
-}
-
-.img-container {
-  order: 1;
-}
-
-.post-fragment img {
-  width: 200px;
-  height: 200px;
-}
-
-.post-fragment .fragment-text {
-  order: 2;
-  width: 100%;
-  margin-left: 20px;
-}
-
-.post-fragment .fragment-text .fragment_section {
-  font-size: 16px;
-  color: #F20505;
-}
-
-.post-fragment .fragment-text .fragment_section:hover {
-  color: #BF0436;
-}
-
-.post-fragment .fragment-text .fragment_blurb {
-  font-size: large;
-}
-
-.post-fragment .fragment-text .fragment_date {
-  padding-top: 10px;
-  font-size: 16px;
-  color: #4D4F5A;
 }
 
 /*# sourceMappingURL=app.css.map */

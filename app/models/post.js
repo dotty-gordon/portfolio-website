@@ -9,6 +9,5 @@ export default class PostModel extends Model {
   @attr paragraph_one;
   @attr paragraph_two;
   @attr paragraph_three;
-
 }
 	

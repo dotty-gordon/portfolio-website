@@ -4,13 +4,17 @@ import { inject as service } from '@ember/service';
 export default class PostsRoute extends Route {
     @service store;
 
-    queryParams = {
-    section: {
-      refreshModel: true
-    }
-  };
-
-	async model(params) {
-	    return this.store.findAll('post');
+    model(params) {
+    	var postCatalog = this.store.findAll('post')
+    	if(params.section == null) {
+    		return postCatalog
+    	} else {
+    		return new Ember.RSVP.Promise(resolve => {
+		   postCatalog.then(posts => {
+		      resolve(posts.filterBy('section', params.section));
+		    });
+		  });
+    	}
 	}
+
  }

@@ -9,7 +9,7 @@
         "publish-date": "2020-07-01",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "image": {
-          "src": "../plague.jpeg",
+          "src": "/assets/images/plague.jpeg",
           "alt": "Black Plague"
         },
         "paragraph-one": "Proin euismod felis sed mi commodo, at suscipit neque iaculis. Vivamus in feugiat sapien. Nulla odio dolor, viverra sit amet egestas eu, lacinia eget elit. Morbi dignissim vehicula porta. Morbi efficitur tellus vitae risus tristique luctus. Praesent dapibus scelerisque tincidunt. Proin quis odio vestibulum mauris ultricies ornare at ut sapien. Donec suscipit quam id feugiat scelerisque. Praesent mattis commodo ipsum eget posuere.",

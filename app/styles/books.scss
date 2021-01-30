@@ -1,0 +1,30 @@
+.books-container {
+	margin-top: 6em;
+}
+
+.books-header {
+	font-family: "Celtic";
+	color: black;
+	font-size: 4em;
+	margin-bottom: 1em;
+}
+
+.books-genre-header {
+	font-family: "Celtic";
+	font-size: 2em;
+	padding-bottom: .5em;
+}
+
+.books {
+	margin-top: 2em;
+}
+
+.book-list {
+	list-style-position: inside;
+	list-style-image: url('/assets/images/circle_of_life.png');
+	
+}
+
+.raptors {
+	//background: url('../circle_of_life.png') no-repeat left top;
+}

@@ -10,7 +10,7 @@
 	        "publish-date": "2020-07-01",
 	        "blurb": "(Bobcats)Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at. Nam in viverra odio.",
 	        "image": {
-	          "src": "../../bobcats.jpg",
+	          "src": "/assets/images/bobcats.jpg",
 	          "alt": "Bobcats"
 	        },
 	        "paragraph-one": "(Bobcats)Proin euismod felis sed mi commodo, at suscipit neque iaculis. Vivamus in feugiat sapien. Nulla odio dolor, viverra sit amet egestas eu, lacinia eget elit. Morbi dignissim vehicula porta. Morbi efficitur tellus vitae risus tristique luctus. Praesent dapibus scelerisque tincidunt. Proin quis odio vestibulum mauris ultricies ornare at ut sapien. Donec suscipit quam id feugiat scelerisque. Praesent mattis commodo ipsum eget posuere.",
@@ -28,7 +28,7 @@
 	        "publish-date": "2020-07-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",
 	        "image": {
-	          "src": "../plague.jpeg",
+	          "src": "/assets/images/plague.jpeg",
 	          "alt": "Black Plague"
 	        },
 	        "paragraph-one": "Proin euismod felis sed mi commodo, at suscipit neque iaculis. Vivamus in feugiat sapien. Nulla odio dolor, viverra sit amet egestas eu, lacinia eget elit. Morbi dignissim vehicula porta. Morbi efficitur tellus vitae risus tristique luctus. Praesent dapibus scelerisque tincidunt. Proin quis odio vestibulum mauris ultricies ornare at ut sapien. Donec suscipit quam id feugiat scelerisque. Praesent mattis commodo ipsum eget posuere.",
@@ -46,7 +46,7 @@
 	        "publish-date": "2020-07-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",
 	        "image": {
-	          "src": "../gradle.png",
+	          "src": "/assets/images/gradle.png",
 	          "alt": "Gradle"
 	        },
 	        "paragraph-one": "Proin euismod felis sed mi commodo, at suscipit neque iaculis. Vivamus in feugiat sapien. Nulla odio dolor, viverra sit amet egestas eu, lacinia eget elit. Morbi dignissim vehicula porta. Morbi efficitur tellus vitae risus tristique luctus. Praesent dapibus scelerisque tincidunt. Proin quis odio vestibulum mauris ultricies ornare at ut sapien. Donec suscipit quam id feugiat scelerisque. Praesent mattis commodo ipsum eget posuere.",

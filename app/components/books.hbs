@@ -1,0 +1,40 @@
+<div class="books">
+  <h2 class="books-genre-header">Technology</h2>
+   <ul class="book-list">
+      {{#each this.tBooks as |tBook|}}
+        <li>{{tBook}}</li>
+      {{/each}}
+    </ul>
+</div>
+<div class="books">
+	<h2 class="books-genre-header">Fiction</h2>
+    <ul class="book-list">
+    	{{#each this.fBooks as |fBook|}}
+    		<li class="raptors">{{fBook}}</li>
+    	{{/each}}
+    </ul>
+</div>
+<div class="books">
+  <h2 class="books-genre-header">Sport</h2>
+  <ul class="book-list">
+        {{#each this.sBooks as |sBook|}}
+    		<li>{{sBook}}</li>
+    	{{/each}}
+  </ul>
+</div>
+<div class="books">
+  <h2 class="books-genre-header">Self Development</h2>
+  <ul class="book-list">
+        {{#each this.sdBooks as |sdBook|}}
+    		<li>{{sdBook}}</li>
+    	{{/each}}
+  </ul>
+</div>
+<div class="books">
+  <h2 class="books-genre-header">History</h2>
+  <ul class="book-list">
+        {{#each this.hBooks as |hBook|}}
+    		<li>{{hBook}}</li>
+    	{{/each}}
+  </ul>
+</div>

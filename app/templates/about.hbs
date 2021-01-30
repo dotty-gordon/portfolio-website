@@ -1,33 +1,35 @@
 <div id="about">
 	<div class="banner">
-		<img class="banner_img" src="galway.jpg">
+		<img class="banner_img" src="/assets/images/castle.jpg">
 	</div>
 
 	<div class="profile">
 		<p id="hello"><q>Hi, I'm David</q></p>
-	    <img id="bubble" src="linkedin.jpeg">
+	    <img id="bubble" src="/assets/images/linkedin.jpeg">
 		<p id="description"><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at. Nam in viverra odio. Morbi maximus odio nunc. Aenean semper dolor non bibendum maximus</q></p>
 
-		{{!-- <div class="grid-container">
-		    <div id="one">Software</div>
-		    <div id="two">Sport</div>
-		    <div id="three">History</div>  
-		    <div id="four">Books</div>
-		</div> --}}
-
 		<!-- Photo Grid -->
-		<div class="row"> 
-		  <div class="column">
-		    <img src="rubex.png">
-		    <img src="rubex.png">
-		  
+		<div class="flexbox"> 
+		  <div class="column min">
+		    <div class = "image-container">
+		    	<span class="image-header">History</span>
+		    	<LinkTo @route="posts"  @query={{hash section="history"}}><img src="/assets/images/history.jpg"></LinkTo>
+		    </div>
+		    <div class = "image-container">
+		    	<span class="image-header">Tech</span>
+		    	<LinkTo @route="posts"  @query={{hash section="software"}}><img src="/assets/images/software.jpg"></LinkTo>
+		    </div>
 		  </div>
-		  
-		  <div class="column">
-		    <img src="galway.png">
-		    <img src="rubex.png">
-		  </div> 
-		  
+		  <div class="column max">
+		  	<div class = "image-container">
+		  		<span class="image-header">Sport</span>
+		  		<LinkTo @route="posts"  @query={{hash section="sport"}}><img src="/assets/images/basketball.jpg"></LinkTo>
+		    </div>
+		  	<div class = "image-container">
+		  		<span class="image-header">Books</span>
+		  		<LinkTo @route="books"><img src="/assets/images/reading.jpg"></LinkTo>
+		  	</div>  
+		  </div>
 		</div>
 	</div> 
 </div>

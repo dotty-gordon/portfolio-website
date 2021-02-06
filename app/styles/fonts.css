@@ -1,11 +1,11 @@
 @font-face {
   font-family: HeadingFont;
-  src: url(fonts/SourceSansPro-SemiBold.ttf);
+  src: url(fonts/source_sans_pro/SourceSansPro-SemiBold.ttf);
 }
 
 @font-face {
   font-family: ParagraphFont;
-  src: url(fonts/SourceSansPro-Light.ttf);
+  src: url(fonts/source_sans_pro/SourceSansPro-Light.ttf);
 }
 
 @font-face {

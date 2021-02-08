@@ -1,8 +1,12 @@
 <div class="post-fragment">
-	<div class="img-container"><img src="{{@post.image.src}}" alt="{{@post.image.alt}}"></div>
+	<LinkTo @route="post" @model={{@post}}>
+		<div class="img-container"><img src="{{@post.image.src}}" alt="{{@post.image.alt}}"></div> 
+	</LinkTo>
 	<div class="fragment-text"> 
 		<p class="fragment-section"><a>{{@post.section}}</a></p>
-		<h2>{{@post.title}}</h2>
+		<LinkTo @route="post" @model={{@post}}>
+			<h2>{{@post.title}}</h2>
+		</LinkTo>
 		<p class="fragment-blurb">{{@post.blurb}}</p>
 		<p class="publish-date">{{@post.publish_date}}</p>
 	</div> 

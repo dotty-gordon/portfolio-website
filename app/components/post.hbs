@@ -1,16 +1,21 @@
 <article class="post">
-    <div ><p class="section">{{@post.section}}</p></div>
-	<h1>{{@post.title}}</h1>
-	<p>{{@post.blurb}}</p>
-	<div class="time"><p class="publish-date">May 21, 2020, 20:00pm GMT</p></div>
-	
-	<Share/>
+    <div id="section-container"><p class="section" id="post-section">{{@post.section}}</p></div>
+	<h1 class="post-title">{{@post.title}}</h1>
+	<p class="post-blurb">{{@post.blurb}}</p>
+
+	<div id="date-share-container">
+		<p class="publish-date post-publish-date">May 21, 2020, 20:00pm GMT</p>
+		<div class="vertical-line"></div>
+		<Share/>
+	</div>
 
 	<img src="{{@post.image.src}}" alt="{{@post.image.alt}}">
-	<p>{{@post.paragraph_one}}</p>
-	<br>
-	<p>{{@post.paragraph_two}}</p>
-	<br>
-	<p>{{@post.paragraph_three}}</p>
-	<br>
+	<div class="post-text-container">
+		<p class="post-paragraph">{{@post.paragraph_one}}</p>
+		<br>
+		<p class="post-paragraph">{{@post.paragraph_two}}</p>
+		<br>
+		<p class="post-paragraph">{{@post.paragraph_three}}</p>
+		<br>
+	</div>
 </article>

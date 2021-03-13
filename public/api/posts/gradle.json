@@ -1,11 +1,11 @@
 {
-	"data": 
+	"data":
 	{
 	      "type": "posts",
-	      "section": "software",
+	      "section": "software_",
 	      "id": "gradle 5.0",
 	      "attributes": {
-	        "section": "software",
+	        "section": "software_",
 	        "title": "Gradle 6.0 upgrade",
 	        "publish-date": "2020-07-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",

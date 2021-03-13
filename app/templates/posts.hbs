@@ -1,3 +1,7 @@
 <article>
-	<PostList @posts={{@model}} />
+   {{#if @model}}
+	  <PostList @posts={{@model}} />
+	 {{else}}
+	  <ComingSoon/>
+	{{/if}}
 </article>

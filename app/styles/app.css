@@ -386,5 +386,10 @@ img {
     transform: translate3d(4px, 0, 0);
   }
 }
+.coming-soon {
+  text-align: center;
+  line-height: 200px;
+  font-size: 4vmin;
+}
 
 /*# sourceMappingURL=app.css.map */

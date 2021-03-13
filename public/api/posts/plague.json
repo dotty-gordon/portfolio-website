@@ -1,10 +1,10 @@
 {
   "data": {
       "type": "posts",
-      "section": "history",
+      "section": "history_",
       "id": "plague",
       "attributes": {
-        "section": "history",
+        "section": "history_",
         "title": "Ireland during the black plague",
         "publish-date": "2020-07-01",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

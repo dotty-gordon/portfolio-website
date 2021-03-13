@@ -1,10 +1,10 @@
 {
   "data": {
       "type": "posts",
-      "section": "history",
+      "section": "history_",
       "id": "plassey",
       "attributes": {
-        "section": "history",
+        "section": "history_",
         "title": "The History of Plassey",
         "publish-date": "2021-02-01",
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

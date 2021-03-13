@@ -2,10 +2,10 @@
     "data": [
     	{
 	      "type": "posts",
-	      "section": "sport",
+	      "section": "sport_",
 	      "id": "bobcats",
 	      "attributes": {
-	      	"section": "sport",
+	      	"section": "sport_",
 	        "title": "The Rise and Fall of the Charlotte Bobcats and Micheal Jordan",
 	        "publish-date": "2020-07-01",
 	        "blurb": "(Bobcats)Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at. Nam in viverra odio.",
@@ -20,10 +20,10 @@
   		},
   		{
 	      "type": "posts",
-	      "section": "history",
+	      "section": "history_",
 	      "id": "plague",
 	      "attributes": {
-	        "section": "history",
+	        "section": "history_",
 	        "title": "Ireland during the black plague",
 	        "publish-date": "2020-07-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",
@@ -38,10 +38,10 @@
     	},
     	{
 	      "type": "posts",
-	      "section": "software",
+	      "section": "software_",
 	      "id": "gradle 5.0",
 	      "attributes": {
-	        "section": "software",
+	        "section": "software_",
 	        "title": "Gradle 6.0 upgrade",
 	        "publish-date": "2020-07-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus eros ante, id sollicitudin sem cursus at.",
@@ -56,10 +56,10 @@
     	},
     	{
 	      "type": "posts",
-	      "section": "history",
+	      "section": "history_",
 	      "id": "plassey",
 	      "attributes": {
-	        "section": "history",
+	        "section": "history_",
 	        "title": "The History of Plassey",
 	        "publish-date": "2021-02-01",
 	        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -71,8 +71,7 @@
 	        "paragraph-two": "In hac habitasse platea dictumst. Maecenas lobortis efficitur neque quis feugiat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a rutrum nulla, in elementum est. Mauris sit amet turpis ut velit luctus sollicitudin non vel tortor. Phasellus non nunc aliquam, bibendum erat ac, dapibus nisl. Aliquam iaculis placerat risus vel efficitur. Nunc vel commodo purus. Etiam quis nisi non velit ullamcorper euismod. Integer id pretium felis, in rutrum orci. Donec quis nibh dignissim, vulputate libero ac, dapibus nulla. Pellentesque facilisis lacus id diam consequat pulvinar. Aliquam ultricies nunc eget sapien ultricies sollicitudin. Vivamus euismod, neque eu tincidunt rutrum, diam enim ultrices nibh, id posuere metus elit eu ligula.",
 	        "paragraph-three": "Pellentesque maximus congue luctus. Fusce viverra justo eu suscipit interdum. Fusce at accumsan justo, sit amet volutpat libero. Vestibulum eu purus ligula. Etiam augue nisi, accumsan pulvinar gravida in, ultrices a libero. Maecenas bibendum odio eget malesuada fermentum. Etiam sed cursus libero, non hendrerit sapien. Aliquam molestie congue tincidunt. Donec cursus ligula vitae metus aliquet, et rhoncus augue hendrerit. Mauris ornare, massa sit amet consectetur tincidunt, mi sapien eleifend justo, id efficitur ex dui nec nibh. Aliquam erat volutpat. Donec ligula nisl, pharetra in lectus et, mattis facilisis dolor. Curabitur augue mauris, sodales ut lobortis eget, maximus sit amet dolor. Ut pellentesque fringilla placerat. Vestibulum dignissim vulputate sagittis."
       		}
-    
+
 		}
   	]
 }
-	

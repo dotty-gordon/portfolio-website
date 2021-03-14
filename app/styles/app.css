@@ -66,17 +66,13 @@ img {
 
 .banner {
   display: inline-block;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin: 4vh 10% auto 10%;
   width: 80%;
   height: auto;
 }
-.banner .banner_img {
-  height: 600px;
-}
 
 #bubble {
-  margin-top: 10px;
+  margin-top: 5vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -91,12 +87,12 @@ img {
 }
 
 #description {
-  padding: 2% 20% 0px 20%;
-  font-size: medium;
+  padding: 4% 5% 0 5%;
+  font-size: 2vw;
 }
 
 .flexbox {
-  margin: 50px auto;
+  margin: 6vh auto;
   width: 60%;
   display: flex;
   flex-wrap: wrap;
@@ -137,11 +133,11 @@ img {
 }
 
 .image-header {
-  font-size: 2vmin;
+  font-size: 1.5vmin;
   position: absolute;
   color: #ffffff;
-  top: 20px;
-  left: 15px;
+  top: 3vmin;
+  left: 3vmin;
 }
 
 .section {
@@ -389,7 +385,7 @@ img {
 .coming-soon {
   text-align: center;
   line-height: 200px;
-  font-size: 4vmin;
+  font-size: 3.5vmin;
 }
 
 /*# sourceMappingURL=app.css.map */

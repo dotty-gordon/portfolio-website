@@ -11,7 +11,7 @@ module.exports = function(deployTarget) {
         secretAccessKey: process.env.AWS_SECRET,
         bucket: 'dotty-gordon-portfolio',
         region: 'eu-west-1',
-        filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,html,json}'
+        filePattern: '**/*.{js,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2,html,json,pdf}'
       }
   };
 

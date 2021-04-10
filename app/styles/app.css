@@ -47,12 +47,12 @@ img {
 }
 
 .tech-profile {
-  margin-top: 100px;
+  margin: 3em auto 0.75em auto;
 }
 
 .tech-profile img {
-  margin-right: 5px;
-  width: 20px;
+  margin-right: 0.5em;
+  width: 2em;
   filter: grayscale(100%);
 }
 
